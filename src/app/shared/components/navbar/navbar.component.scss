@@ -1,0 +1,24 @@
+.navbar {
+    ul {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+
+        li {
+            display: inline-block;
+            background-color: dodgerblue;
+            color: whitesmoke;
+            padding: .2rem .5rem;
+            border-radius: 10px;
+        }
+
+        li:hover {
+            cursor: pointer;
+        }
+    }
+
+}
+
+.active {
+    background-color: orangered !important;
+}
