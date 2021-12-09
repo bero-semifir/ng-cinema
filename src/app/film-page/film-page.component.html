@@ -1,1 +1,4 @@
-<p>film-page works!</p>
+<h1>Les films à l'affiche !</h1>
+<div class="flex">
+    <app-film [film]='film' *ngFor='let film of films'></app-film>
+</div>

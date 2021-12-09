@@ -1,0 +1,12 @@
+<div class="card">
+    <div class="card-header">
+        <h3>{{film.title}}</h3>
+        <h4>Sortie :{{ film.release_date | date}} | durée {{ film.duration }}</h4>
+    </div>
+    <div class="card-body">
+        {{ film.description | slice:0:100 }}...
+    </div>
+    <div class="card-footer">
+        <button>Voir les séances</button>
+    </div>
+</div>
